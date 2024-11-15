@@ -73,7 +73,7 @@ public class PlayerService {
     public void deletePlayer(String playerName) {
         playerRepository.deleteByPlayer(playerName);
     }
-    public void deleteAllPlayer() {
+    public void deleteAllPlayers() {
         playerRepository.deleteAll();
     }
 }
